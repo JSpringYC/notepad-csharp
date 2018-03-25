@@ -4,9 +4,12 @@
 
     <!-- Application -->
     <sys:String x:Key="App.Name">Notepad</sys:String>
+    <sys:String x:Key="App.Name.Untitled">Untitled - Notepad</sys:String>
     <sys:String x:Key="App.Version">1.0.0.0</sys:String>
     <!-- Menu -->
     <sys:String x:Key="Menu.File">_File</sys:String>
+    <sys:String x:Key="Menu.File.NewFile">_New</sys:String>
+    <sys:String x:Key="Menu.File.Exit">E_xit</sys:String>
     <sys:String x:Key="Menu.Edit">_Edit</sys:String>
     <sys:String x:Key="Menu.Format">F_ormat</sys:String>
     <sys:String x:Key="Menu.Format.Wrap">_Wrap</sys:String>

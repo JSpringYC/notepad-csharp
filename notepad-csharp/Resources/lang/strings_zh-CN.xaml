@@ -4,9 +4,12 @@
 
     <!-- 程序 -->
     <sys:String x:Key="App.Name">记事本</sys:String>
+    <sys:String x:Key="App.Name.Untitled">无标题 - 记事本</sys:String>
     <sys:String x:Key="App.Version">1.0.0.0</sys:String>
     <!-- 菜单 -->
     <sys:String x:Key="Menu.File">文件(_F)</sys:String>
+    <sys:String x:Key="Menu.File.NewFile">新建(_N)</sys:String>
+    <sys:String x:Key="Menu.File.Exit">退出(_X)</sys:String>
     <sys:String x:Key="Menu.Edit">编辑(_E)</sys:String>
     <sys:String x:Key="Menu.Format">格式(_O)</sys:String>
     <sys:String x:Key="Menu.Format.Wrap">自动换行(_W)</sys:String>

@@ -69,7 +69,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Commons\IO\File.cs" />
+    <Compile Include="Editor.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -113,8 +113,6 @@
   <ItemGroup>
     <None Include="Resources\ico_notepad.ico" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Commons\Util\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

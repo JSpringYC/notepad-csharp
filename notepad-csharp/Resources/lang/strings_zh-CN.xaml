@@ -9,10 +9,13 @@
     <!-- 菜单 -->
     <sys:String x:Key="Menu.File">文件(_F)</sys:String>
     <sys:String x:Key="Menu.File.NewFile">新建(_N)</sys:String>
+    <sys:String x:Key="Menu.File.Open">打开(_O)</sys:String>
+    <sys:String x:Key="Menu.File.Save">保存(_S)</sys:String>
     <sys:String x:Key="Menu.File.Exit">退出(_X)</sys:String>
     <sys:String x:Key="Menu.Edit">编辑(_E)</sys:String>
     <sys:String x:Key="Menu.Format">格式(_O)</sys:String>
     <sys:String x:Key="Menu.Format.Wrap">自动换行(_W)</sys:String>
+    <sys:String x:Key="Menu.Format.Font">字体(_F)</sys:String>
     <sys:String x:Key="Menu.View">查看(_V)</sys:String>
     <sys:String x:Key="Menu.View.StatusBar">状态栏(_S)</sys:String>
     <sys:String x:Key="Menu.Help">帮助(_H)</sys:String>

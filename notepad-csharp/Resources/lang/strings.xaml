@@ -9,10 +9,13 @@
     <!-- Menu -->
     <sys:String x:Key="Menu.File">_File</sys:String>
     <sys:String x:Key="Menu.File.NewFile">_New</sys:String>
+    <sys:String x:Key="Menu.File.Open">_Open</sys:String>
+    <sys:String x:Key="Menu.File.Save">_Save</sys:String>
     <sys:String x:Key="Menu.File.Exit">E_xit</sys:String>
     <sys:String x:Key="Menu.Edit">_Edit</sys:String>
     <sys:String x:Key="Menu.Format">F_ormat</sys:String>
     <sys:String x:Key="Menu.Format.Wrap">_Wrap</sys:String>
+    <sys:String x:Key="Menu.Format.Font">_Font</sys:String>
     <sys:String x:Key="Menu.View">_View</sys:String>
     <sys:String x:Key="Menu.View.StatusBar">_StatusBar</sys:String>
     <sys:String x:Key="Menu.Help">_Help</sys:String>

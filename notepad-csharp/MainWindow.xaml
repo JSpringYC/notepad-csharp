@@ -16,25 +16,28 @@
         <!-- 菜单 -->
         <Menu Background="White">
             <MenuItem Header="{DynamicResource Menu.File}">
-                <MenuItem Header="{DynamicResource Menu.File.NewFile}" />
+                <MenuItem Header="{DynamicResource Menu.File.NewFile}" Click="NewFileMenu_Click" />
+                <MenuItem Header="{DynamicResource Menu.File.Open}" Click="OpenMenu_Click"/>
+                <MenuItem Header="{DynamicResource Menu.File.Save}" Click="SaveMenu_Click"/>
                 <Separator />
-                <MenuItem Header="{DynamicResource Menu.File.Exit}" />
+                <MenuItem Header="{DynamicResource Menu.File.Exit}" Click="ExitMenu_Click" />
             </MenuItem>
             <MenuItem Header="{DynamicResource Menu.Edit}" />
             <MenuItem Header="{DynamicResource Menu.Format}">
-                <MenuItem Header="{DynamicResource Menu.Format.Wrap}" IsCheckable="True" IsChecked="True"/>
+                <MenuItem x:Name="WrapMenu" Header="{DynamicResource Menu.Format.Wrap}" IsCheckable="True" IsChecked="True" Click="WrapMenu_Click"/>
+                <MenuItem Header="{DynamicResource Menu.Format.Font}"/>
             </MenuItem>
             <MenuItem Header="{DynamicResource Menu.View}">
-                <MenuItem Header="{DynamicResource Menu.View.StatusBar}" IsCheckable="True" IsChecked="True"/>
+                <MenuItem x:Name="StatusBarMenu" Header="{DynamicResource Menu.View.StatusBar}" IsCheckable="True" IsChecked="True" Click="StatusBarMenu_Click"/>
             </MenuItem>
             <MenuItem Header="{DynamicResource Menu.Help}" />
         </Menu>
         <!-- 分隔 -->
         <TextBlock Grid.Row="1" Background="#fefefe" />
         <!-- 内容 -->
-        <TextBox Grid.Row="2" AcceptsReturn="True" AcceptsTab="True" AllowDrop="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"/>
+        <TextBox x:Name="ContentText" Grid.Row="2" AcceptsReturn="True" AcceptsTab="True" AllowDrop="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"/>
         <!-- 状态栏 -->
-        <Grid Grid.Row="3" Background="#f1f1f1">
+        <Grid x:Name="StatusBarContainer" Grid.Row="3" Background="#f1f1f1">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="3*" />
                 <ColumnDefinition Width="2" />
